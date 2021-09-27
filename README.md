@@ -32,7 +32,7 @@ docker version
 ##### Commands
 To pull an image
 ```sh
-docker pull hello-worls
+docker pull hello-world
 ```
 To check the list of containers running 
 ```sh
