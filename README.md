@@ -29,3 +29,45 @@ To check the current version of docker
 ```sh
 docker version
 ```
+##### Commands
+To pull an image
+```sh
+docker pull hello-worls
+```
+To check the list of containers running 
+```sh
+docker ps
+```
+To check the list of all containers 
+```sh
+docker ps -a
+```
+To containerize an image
+```sh
+docker run redis
+```
+To pull a specfic image version from dockerhub and containerize it
+```sh
+docker run redis:4.0
+```
+To run docker in detached mode
+```sh
+docker run -d redis:4.0
+```
+We can use this id to start and stop a docker
+```sh
+docker start <id>
+docker stop <id>
+```
+Port Binding
+```sh 
+docker run -p6000:6379 redis
+```
+Debugging container
+```sh 
+docker exec -it <id> /bin/bash 
+```
+Networking
+```sh
+docker network ls
+```
