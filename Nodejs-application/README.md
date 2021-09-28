@@ -6,6 +6,10 @@ Build the image
 ```sh
 docker build . -t <your username>/<name-of-node-application>
 ```
+Incase of network timeout error
+```sh
+docker build . -t <your username>/<name-of-node-application> --network=host
+```
 To see the images listed by Dockers
 ```sh
 docker images
