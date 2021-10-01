@@ -46,6 +46,10 @@ To containerize an image
 ```sh
 docker run redis
 ```
+To remove an image
+```sh
+docker rmi -f redis
+```
 To pull a specfic image version from dockerhub and containerize it
 ```sh
 docker run redis:4.0
