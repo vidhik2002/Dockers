@@ -30,3 +30,8 @@ To call app using curl
 ```sh
 curl -i localhost:49160
 ```
+##### When using docker-compose.yml file
+Run the command
+```sh
+docker-compose up --build
+```
