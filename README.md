@@ -1,4 +1,7 @@
-# Installation
+# Dockers
+#####  A collection of resources that helped me understand Dockers!
+
+## Installation
 Make sure your WSL is upgraded to version 2.
 
 
