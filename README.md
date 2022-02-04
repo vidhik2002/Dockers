@@ -78,3 +78,11 @@ Networking
 ```sh
 docker network ls
 ```
+To delete an image, we need to stop the container and remove its container first
+```
+docker ps
+docker stop <Container_Id>
+docker rm <Container_Id>
+docker image rm <Image_Id>
+```
+
