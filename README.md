@@ -5,6 +5,18 @@
 
 #####  A collection of resources that helped me understand Dockers!
 Docker is a software platform that allows you to build, test, and deploy applications quickly.
+A Docker packages an application and all its dependencies in a container that can only run on a Linux Server. Thus, dockers are also called containers.
+
+How Components does a Docker need?
+1. Daemon - which is used to build, run, and manage the container.
+2. High-level API - which allows the user to communicate with the Daemon
+3. CLI -  an interface we use to make this all available.
+
+
+
+Steps for Dockerization
+
+
 ## Installation
 Make sure your WSL is upgraded to version 2.
 
