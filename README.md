@@ -1,6 +1,10 @@
-# Dockers
-#####  A collection of resources that helped me understand Dockers!
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/76872523/227756067-5aecd356-39bb-4309-9d20-8ffc26e162e0.png">
+</p>
+
+#####  A collection of resources that helped me understand Dockers!
+Docker is a software platform that allows you to build, test, and deploy applications quickly.
 ## Installation
 Make sure your WSL is upgraded to version 2.
 
